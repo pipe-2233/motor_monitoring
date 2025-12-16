@@ -1,0 +1,23 @@
+# Backend de Monitoreo de Motores - Dependencias Esenciales
+# Instalar con: pip install -r requirements.txt
+
+# Framework web
+fastapi
+uvicorn[standard]
+
+# Base de datos
+sqlalchemy
+aiosqlite
+
+# MQTT
+paho-mqtt
+
+# Machine Learning
+scikit-learn
+numpy
+joblib
+
+# Utilidades
+python-dotenv
+pydantic
+pydantic-settings
